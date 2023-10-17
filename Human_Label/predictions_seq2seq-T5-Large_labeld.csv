@@ -1,0 +1,53 @@
+predictions_seq2seq-T5-Large
+metaphor,model interpretation,reference correct interpretation,
+The girl had the flightiness of a sparrow,The girl was flighty.,The girl was very fickle.,Yes
+The girl had the flightiness of a rock,The girl is very calm,The girl was very stable.,Yes
+It was as peaceful as a church.,It was quiet and peaceful.,It was very peaceful.,Yes
+It was as peaceful as a battlefield.,The experience was not peaceful.,"It was full of conflict and danger, not peace.",Yes
+The leaves were as green as grass,The leaves were green,The leaves were very green,Yes
+The leaves were as green as dirt,The leaves were brown.,The leaves were brown and not green at all.,Yes
+Shopping for groceries is finding shells on a sunny beach,Shopping for groceries is a joyous experience,"Shopping for groceries is a fun, rewarding chore",Yes
+Shopping for groceries is a scavenger hunt with a list created by a lunatic,Shopping for groceries is full of confusion and boredom.,"Shopping for groceries is a crazy, nearly impossible chore",Yes
+War is an amputation on the wrong limb,War is bad,War is the wrong solution to a problem,Yes
+War is an amputation to save your life,War is painful,War is a necessary solution,No
+It's as green as grass in the spring,It's pretty green,It's fairy green,Yes
+It's as green as grass during a hot summer,It's very green,It's not too green,No
+This is as peaceful as a sleeping puppy,This is peaceful,It's very peaceful,Yes
+This is as peaceful as European in the '40s,This is very peaceful,It's not very peaceful,No
+The music was loud like a siren.,The music was very loud.,The music was very loud.,Yes
+The music was loud like a whisper.,The music was very quiet.,The music was very quiet.,Yes
+Jobs are as available as a marriage man.,Jobs are very hard to find.,Jobs are not available.,Yes
+Jobs are as available as a bachelor.,Job openings are scarce.,Jobs are very available.,No
+Peace is a human flying,Peace is stable,Peace is impossible,Yes
+Peace is a human walking,Peace is a living thing,Peace is possible,No
+Plants are a lullaby,Plants are quiet,Plants are calming,Yes
+Plants are a loud drum,Plants are noisy,Plants are disturbing,Yes
+The car was as ugly as a one eyed rat,The car was ugly,it was hideous,Yes
+The car was as ugly as a swan,The car was beautiful.,it was beautiful,Yes
+The man was as handsome as a prince,The man was beautiful,he was good looking,Yes
+The man was as handsome as a hobo,The man was ugly,he was ugly,Yes
+The conversation was sharp as a tack,The conversation was concise and easy to understand,The conversation was sharp and witty.,No
+The conversation was sharp as a rock,The conversation was quiet,The conversation was dull and not sharp.,No
+He ate it like a fat boy eats cake,He ate it very fast,The food was tasty to him,Yes
+He ate it like a young boy eats broccoli,He ate it slowly,The food was unpalatable to him,Yes
+He picked it up like a mother holding a baby,He picked it up,He held it with pride and care,No
+He picked it up like a playboy holding a condom,He didn't pick it up,He held it with disgust and caution,No
+He rushed through the math test like an ape,He had no time for the math test,He rushed because he is dumb,No
+He rushed through the math test like a rocket scientist,He rushed through the test in a hurry.,He rushed because he is smart,No
+The bear was as hungry as a lion,the bear was very hungry,it was starving,Yes
+The bear was as hungry as a piece of paper,The bear was not hungry,it didn't need food,Yes
+That conversation had the ease of doing your taxes blindfolded.,The conversation was easy to understand.,Having that conversation was difficult,Yes
+That conversation had the ease of a Sunday morning.,The conversation was not very easy.,Having that conversation was easy.,No
+Their conversations were artillery bombardments.,Their conversations were demoralizing,Their conversations were heated and antagonistic.,No
+Their conversations were a hug with words.,Their conversations were warm and kind.,Their conversations were friendly.,Yes
+The story was as disturbing as a nightmare,The story was very disturbing,The story was very disturbing.,Yes
+The story was as disturbing as a newborn puppy,The story was not very disturbing,"The story failed to be disturbing, and in fact seemed cute.",No
+Their expectations of the house they could afford turned into melted ice.,The house they could afford was not very nice.,Their expectations were not met.,Yes
+Their expectations of the house they could afford leapt past the second story.,They expected a big house to be large and modern.,Their expectations were exceeded.,No
+Those that heard the child sing were carried away on gentle waves.,The child was singing well.,Those that heard the singing were pleasantly entertained.,Yes
+Those that heard the child sing were tortured by the intruding notes.,The child's voice sounded strange and disorienting.,Those that heard the singing were unpleasantly inundated.,Yes
+She sings like an angel,She sings very well,her voice is magical,Yes
+She sings like a bullfrog,She's really bad at singing.,her voice is awful,Yes
+HIs opinions were as firm as concrete,HIs opinions were logical,He was very certain of his opinion,No
+HIs opinions were as firm as a cotton ball,HIs opinions were shaky,He was very uncertain of his opinion,Yes
+TOTAL ,,,33/49
