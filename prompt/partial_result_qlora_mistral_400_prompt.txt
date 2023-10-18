@@ -1,0 +1,39 @@
+All things considered
+		overall accuracy: 
+		0.605
+		confusion matrix: 
+		correct forward 242 wrong forward 158 correct backward 224 wrong_backward 176
+This is to say
+		overall accuracy: 
+		0.7075
+		confusion matrix: 
+		correct forward 283 wrong forward 117 correct backward 252 wrong_backward 148
+...
+		0.65
+		confusion matrix: 
+		correct forward 260 wrong forward 140 correct backward 227 wrong_backward 173
+That is to put it mildly
+		overall accuracy: 
+		0.6525
+		confusion matrix: 
+		correct forward 261 wrong forward 139 correct backward 241 wrong_backward 159
+Let's face
+		overall accuracy: 
+		0.665
+		confusion matrix: 
+		correct forward 266 wrong forward 134 correct backward 235 wrong_backward 165
+Essentially speaking 
+		overall accuracy: 
+		0.6725
+		confusion matrix: 
+		correct forward 269 wrong forward 131 correct backward 241 wrong_backward 159
+So to speak 
+		overall accuracy: 
+		0.66
+		confusion matrix: 
+		correct forward 264 wrong forward 136 correct backward 239 wrong_backward 161
+=>
+		overall accuracy: 
+		0.6775
+		confusion matrix: 
+		correct forward 271 wrong forward 129 correct backward 244 wrong_backward 156
