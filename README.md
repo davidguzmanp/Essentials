@@ -1,4 +1,5 @@
 # Testing the Ability of Language Models to Interpret Figurative Language
+This repository contains the dataset and code for the documentation of our submission to the course [Essentials in Text and Speech Processing 2023](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/003/SM/51079434) course at [University of Zurich](https://www.uzh.ch/en.html).
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -10,16 +11,26 @@
 
 
 ## Introduction
-This repository contains the dataset and code for the documentation of our submission to the course [Essentials in Text and Speech Processing](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/003/SM/51079434) course at [University of Zurich](https://www.uzh.ch/en.html). 
-This code repository contains the code used to evaluate the performance of FLAN T-5 on figurative language, using a dataset of 500 Winograd schema examples. The code can be used to reproduce the results of the paper, and to explore the model's performance on different figurative language tasks.
 
-<!-- #### Why Figurative language?
-Most of NLP (as of the publication date of this paper) focuses on literal interpretation of phrases. However, this isn't the only way in which humans use language. In most cases, people can readily interpret creative phrases such as "She thinks of herself as a particle of sand in the desert", even if they have not directly heard such a phrase before. Figurative language is prominent in colloquial text and literature, and correct inference regarding figurative language involves commonsense knowledge as well as flexibility in word meaning inference. -->
+The use of figurative language is prominent in everyday language but it lacks a presence in the field of large language models. In this paper, we explore the performance of the FLAN T-5 large model on 500 random samples from a dataset in a Winograd schema format. We evaluate the performance of the model in different scenarios. A prompt alone improves the model’s understanding of the metaphor and leads to the highest accuracy. Human valida tion of the results reveals that more research is needed in areas that improves the model’s understanding when the figurative text involves color, emotion and is longer in length.
 
-#### Why FLAN T-5
-?
+#### Why FLAN T-5?
+T5 is a seq2seq model that consists of two RNNs (encoder and decoder). It can generate outputs that are longer than the input, making it ideal for translation and interpretation tasks. We used T5 here because it is a versatile model that can be fine-tuned for a variety of NLP tasks, including machine translation and text summarization.
 
-#### Examples?
+#### Why Figurative language?
+Most of NLP (as of the publication date of this paper) focuses on literal interpretation of phrases. However, this isn't the only way in which humans use language. In most cases, people can readily interpret creative phrases such as "She thinks of herself as a particle of sand in the desert", even if they have not directly heard such a phrase before. Figurative language is prominent in colloquial text and literature, and correct inference regarding figurative language involves commonsense knowledge as well as flexibility in word meaning inference.
+
+#### Examples
+The dataset is formatted as a Winograd schema. This means that sentences with the same beginning, but opposite meaning are paired together. This formatting was designed to reduce shortcut learning. Accuracy is calculated over all examples though, rather than for pairs.
+
+| Sentence  | Correct Answer |
+| ------------- | ------------- |
+| The future is as bright as the sun  | The future is bright  |
+| The future is as bright as ink  | The future is not bright  |
+| The concert was as crowded as a rush-hour train  | The concert was crowded  |
+| The concert was as crowded as a mausoleum  | The concert was not crowded  |
+| Sleeping over at his house is like spending a night at the Waldorf Astoria | He has very nice accommodations |
+| Sleeping over at his house is like spending a night at the Motel 6 | He has below average accommodations |
 
 ## Organization
 In this repository, we have primarily stored Jupyter notebooks for all stages of the experiment like baseline results, prompt engineering and finetuning. Addionally, some of the data for training or produced as a results are stored as well.
