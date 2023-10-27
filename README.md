@@ -11,8 +11,17 @@ This repository contains the dataset and code for the documentation of our submi
 
 
 ## Introduction
+Figurative language, including metaphors and similes, enriches human communication by adding depth and nuance. 
 
-The use of figurative language is prominent in everyday language but it lacks a presence in the field of large language models. In this paper, we explore the performance of the FLAN T-5 large model on 500 random samples from a dataset in a Winograd schema format. We evaluate the performance of the model in different scenarios. A prompt alone improves the model’s understanding of the metaphor and leads to the highest accuracy. Human valida tion of the results reveals that more research is needed in areas that improves the model’s understanding when the figurative text involves color, emotion and is longer in length.
+While the recent surge in Natural Language Processing (NLP) has advanced the field, particularly in the realm of literal language interpretation, there remains a research gap in the comprehension of figurative language by large language models (LLMs). 
+
+This study delves into the proficiency of LLMs, including FLAN-T5 large, Mistral, and Phi1.5B, in processing and simplifying sentences with metaphors. 
+
+Experiments assessed the effectiveness of seq2seq fine-tuning, prompt engineering, and a combination of both with FLAN-T5 large. Notably, prompt-engineering alone augmented model accuracy from 61.5% to 71.4%. 
+
+Furthermore, human evaluations depicted a stark contrast between the metric based on sentence probabilities and the human-perceived correctness of metaphor interoperation, where prompt-engineering plummets to 8% whereas a sequence-to-sequence fine-tuned Flan-T5-Large achieved 64%. 
+
+The implications of these findings underscore the complexities of figurative language processing by LLMs and the potential pitfalls of relying solely on automated metrics as well as the gap between sentence probabilities and decoded outputs.
 
 #### Why FLAN T-5?
 T5 is a seq2seq model that consists of two RNNs (encoder and decoder). It can generate outputs that are longer than the input, making it ideal for translation and interpretation tasks. We used T5 here because it is a versatile model that can be fine-tuned for a variety of NLP tasks, including machine translation and text summarization.
