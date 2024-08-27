@@ -1,5 +1,5 @@
-# Testing the Ability of Language Models to Interpret Figurative Language
-This repository contains the dataset and code for the documentation of our submission to the course [Essentials in Text and Speech Processing 2023](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/003/SM/51079434) course at [University of Zurich](https://www.uzh.ch/en.html).
+# Metaphors Unveiled: Exploring Language Models for Figurative Text and The Gap Between Sentence Probabilities and Decoded Text
+This repository contains the dataset and code for the documentation of our submission to the course [Essentials in Text and Speech Processing 2023](https://studentservices.uzh.ch/uzh/anonym/vvz/?sap-language=EN&sap-ui-language=EN#/details/2023/003/SM/51079434) course at [University of Zurich](https://www.uzh.ch/en.html). You access the report [here]().
 
 ## Table of Contents
 * [Introduction](#introduction)
